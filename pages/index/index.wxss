@@ -1,0 +1,61 @@
+
+.banner {
+  margin-bottom: 30px;
+}
+swiper-item image {
+  display: block;
+   width: 100%; 
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.t_c {
+  text-align-last: center
+}
+.topImg {
+  display: block;
+  width:195px;
+  height: 22px;
+  margin:10px  auto;
+}
+.oneBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.oneBox image.one {
+  width: 57px;
+  height: 52px;
+}
+.rightAway {
+  display: block;
+  width: 80px;
+  height: 20px;
+  border:1px solid red;
+  border-radius: 10px;
+  margin:20px auto;
+}
+.centerFooter {
+  padding	:30px 0;
+  background-color: #F5EEE4;
+}
+.footerBox {
+  display: flex;
+  justify-content: space-between
+}
+.footerBox .kefu {
+  flex:1;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #B7312D;
+}
+.footerBox .we {
+  border-left: 1px solid #ccc;
+  box-sizing: border-box
+}

@@ -1,0 +1,8 @@
+  <import src ="../top/top.wxml"/>
+<template is="top">
+  <view>top</view>
+</template>
+<view>
+
+aaaa
+</view> 

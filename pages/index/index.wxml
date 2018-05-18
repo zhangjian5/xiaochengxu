@@ -1,0 +1,34 @@
+<import src="../top/top.wxml"/>
+<!-- //模版的渲染 -->
+<template is="item" data="{{text: 'forbar'}}"/>
+
+<view class="btn-area">
+  <navigator url="/pages/about/about" hover-class="navigator-hover">跳转到新页面</navigator>
+</view>
+<!--banner  -->
+<view class='banner'>
+    <swiper indicator-dots="true"
+            autoplay="true" interval="2500" duration="1000">
+            <block wx:for="{{imgUrls}}">
+              <swiper-item>
+                <image src="{{item}}" class="slide-image" height="150"/>
+              </swiper-item>
+            </block>
+          </swiper>      
+</view>
+<view class="center t_c">
+  <text class="f14 t_c">5大行业，提供包装解决方案</text>
+   <image  src="{{topImg}}" class="topImg" />
+    <view class="oneBox">
+         <image  wx:for="{{imgone}}" src="{{item}}" class="one"/>
+    </view>
+    <view class="rightAway f14"  bindtap="top">立即预约</view>
+    <view class="centerFooter">
+      <text class="f14 t_c">非凡材质工艺 成就好的包装</text>
+      <image  src="{{topImg}}" class="topImg" />
+    </view>
+</view>
+<view class="footerBox">
+  <view class="kefu t_c">在线客服</view>
+  <view class="kefu we t_c">联系我们</view>
+</view>

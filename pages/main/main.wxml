@@ -1,0 +1,13 @@
+<view class='container'>
+   <view class='tap'>
+      <view class='top'>确定人数</view>
+      <view class='list tab1'>确定玩家人数</view>
+      <slider max='{{person.max}}' min='{{person.min}}' bindchange='changePerson' show-value backgroundColor='#8a5142'></slider>
+      <view class='list tab2'>确定卧底人数</view>
+      <slider max='{{wodi.max}}' min='{{wodi.min}}' bindchange='changeWodi'  show-value backgroundColor='#8a5142'></slider>
+      <view class='list tab2'>确定白板人数</view>
+       <slider max='{{baiban.max}}' min='{{baiban.min}}' bindchange='changeBaiban'  show-value backgroundColor='#8a5142' ></slider> 
+      <view class='begin' bindtap='start' >开始游戏</view>
+      
+   </view> 
+</view>
